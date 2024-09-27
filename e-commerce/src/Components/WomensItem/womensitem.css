@@ -1,0 +1,29 @@
+.womens-item{
+    width: 350px;
+}
+.womens-item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.womens-item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.womens-item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.womens-item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.womens-item img {
+    width: 250px; 
+    height: auto; 
+}

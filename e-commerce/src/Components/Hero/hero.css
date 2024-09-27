@@ -1,0 +1,58 @@
+.hero{
+        height: 100vh;
+  background: #d6a4a3;
+    
+}
+.new-arrivals{
+    margin-left: 200px;
+}
+.new{
+    margin-left: 200px;
+    font-size: 40px;
+    
+}
+.trendy-img{
+    display: flex;
+    justify-content: end;
+    margin-top: -20%;
+    margin-left: 100%;
+  
+}
+.trendy-img {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trendy-img img {
+    max-width: 500px;
+    height: auto;
+    animation: slide-up 4s ease-in-out;
+}
+
+button {
+    margin-top: 40px;
+    border-radius: 40px;
+    height: 50px;
+    background: #381312;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a1919;
+}
+
+/* Animation for smooth transition */
+@keyframes slide-up {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
